@@ -1,0 +1,19 @@
+{
+  "name": "todaysflower",
+  "version": "1.0.0",
+  "description": "\"our pj\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobready0812/TodaysFlower.git"
+  },
+  "author": "Daehyeon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bobready0812/TodaysFlower/issues"
+  },
+  "homepage": "https://github.com/bobready0812/TodaysFlower#readme"
+}
