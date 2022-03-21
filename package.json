@@ -2,9 +2,9 @@
   "name": "todaysflower",
   "version": "1.0.0",
   "description": "\"our pj\"",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bobready0812/TodaysFlower/issues"
   },
-  "homepage": "https://github.com/bobready0812/TodaysFlower#readme"
+  "homepage": "https://github.com/bobready0812/TodaysFlower#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
