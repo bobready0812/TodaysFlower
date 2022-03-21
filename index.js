@@ -1,1 +1,3 @@
-console.log("Hello Node");
+const express = require("express");
+
+const app = express;
