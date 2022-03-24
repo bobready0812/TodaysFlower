@@ -2,8 +2,8 @@ import express from "express";
 
 const userRouter = express.Router();
 
-const hadnleEditUser = (req, res) => res.send("Edit User"); 
+const handleEditUser = (req, res) => res.send("Edit User"); 
 
-userRouter.get("/edit", hadnleEditUser);
+userRouter.get("/edit", handleEditUser);
 
 export default userRouter;
