@@ -7,7 +7,7 @@ export const controlPot = (req,res) => {
 }
 
 export const setting = (req,res) => {
-    res.send("꽃병 설정");
+    res.send(`유저: ${req.params.user} 꽃병: ${req.params.id}`);
 }
 
 export const write = (req,res) => {

@@ -1,5 +1,5 @@
 export const main = (req,res) => {
-    return res.send("home");
+    return res.render("home");
 }
 
 export const choose = (req,res) => {

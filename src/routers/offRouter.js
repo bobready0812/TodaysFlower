@@ -4,7 +4,7 @@ import { showFlower, write } from "../controllers/offController";
 
 const offRouter = express.Router();
 offRouter.get("/", link);
-offRouter.get("/:FB_id", showFlower);
-offRouter.get("/:FB_id/write", write);
+offRouter.get("/:FB_id2", showFlower);
+offRouter.get("/:FB_id2/write", write);
 
 export default offRouter;
