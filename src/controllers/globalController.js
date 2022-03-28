@@ -12,7 +12,7 @@ export const join = (req,res) => {
 
 export const postJoin = (req,res) => {
     console.log(req.body);
-    res.end();
+    res.redirect("/");
 }
 
 export const login = (req,res) => {

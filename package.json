@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/bobready0812/TodaysFlower#readme",
   "dependencies": {
+    "body-parser": "^1.19.2",
     "express": "^4.17.3",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.15",
