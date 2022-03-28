@@ -1,5 +1,5 @@
 export const main = (req,res) => {
-    return res.render("home");
+    return res.send("home");
 }
 
 export const choose = (req,res) => {
@@ -11,5 +11,5 @@ export const join = (req,res) => {
 }
 
 export const login = (req,res) => {
-    res.send("Login");
+    res.render("login");
 }
