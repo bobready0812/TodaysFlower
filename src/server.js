@@ -7,10 +7,13 @@ import onRouter from "./routers/onRouter";
 const PORT = 5000;
 
 const app = express();
+const bodyParser = require('body-parser');
 const logger = morgan("dev");
 
 app.set("view engine", "pug");
 app.set("views" ,process.cwd() + "/src/views");
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
 app.use(logger);
 app.use("/",globalRouter);
 app.use("/on", onRouter);
