@@ -7,9 +7,14 @@ export const choose = (req,res) => {
 }
 
 export const join = (req,res) => {
-    res.send("Join Now");
+    res.render("join");
+}
+
+export const postJoin = (req,res) => {
+    console.log(req.body);
+    res.end();
 }
 
 export const login = (req,res) => {
-    res.render("login");
+    res.send("login");
 }
