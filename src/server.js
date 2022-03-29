@@ -1,10 +1,13 @@
+import "./db"
+import "./models/User";
 import express from "express";
+import { application } from "express";
 import morgan from "morgan";
 import globalRouter from "./routers/globalRouter";
 import offRouter from "./routers/offRouter";
 import onRouter from "./routers/onRouter";
 
-const PORT = 5000;
+
 
 const app = express();
 const bodyParser = require('body-parser');
@@ -19,10 +22,11 @@ app.use("/",globalRouter);
 app.use("/on", onRouter);
 app.use("/off", offRouter);
 
-
+const PORT = 5000;
 
 
 const handleListening = () => console.log(`Server listening on port ${PORT}`);
 
 app.listen(PORT, handleListening)
+
 
