@@ -1,5 +1,5 @@
 import express from "express";
-import { main,join,login,choose,postJoin } from "../controllers/globalController"; 
+import { main,choose } from "../controllers/globalController"; 
 
 const globalRouter = express.Router();
 
