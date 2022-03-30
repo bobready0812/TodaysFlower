@@ -7,7 +7,7 @@ const globalRouter = express.Router();
 globalRouter.get("/", main);
 globalRouter.get("/switch",choose);
 globalRouter.route("/join").get(getJoin).post(postJoin); 
-globalRouter.get("/login",getLogin);
+globalRouter.route("/login").get(getLogin);
 //로딩 라우터는 나중에 추가
 
 export default globalRouter;
