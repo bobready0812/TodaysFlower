@@ -1,5 +1,5 @@
 export const link = (req,res) => {
-    return res.send("링크 입력");
+    return res.render("link");
 }
 
 export const showFlower = (req,res) => {

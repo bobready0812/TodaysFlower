@@ -1,7 +1,6 @@
 import "./db"
 import "./models/User";
 import express from "express";
-import { application } from "express";
 import morgan from "morgan";
 import globalRouter from "./routers/globalRouter";
 import offRouter from "./routers/offRouter";
