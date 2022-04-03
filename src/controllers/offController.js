@@ -1,4 +1,4 @@
-export const link = (req,res) => {
+export const getlink = (req,res) => {
     return res.render("link");
 }
 
