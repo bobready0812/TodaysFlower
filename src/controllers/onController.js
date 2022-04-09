@@ -11,5 +11,5 @@ export const setting = (req,res) => {
 }
 
 export const write = (req,res) => {
-    res.send("편지 추가");
+    res.send("편지 쓰기");
 }
