@@ -7,5 +7,5 @@ export const choose = (req,res) => {
 }
 
 export const prac = (req,res) => {
-    res.send("연습용");
+    res.render("prac");
 }
