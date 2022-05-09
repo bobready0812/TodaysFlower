@@ -3,6 +3,6 @@ export const main = (req,res) => {
 }
 
 export const choose = (req,res) => {
-    res.send("회원 비회원");
+    res.send("회원 or 비회원?");
 }
 
